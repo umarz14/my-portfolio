@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "../../lib/utils";
+import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
 import { createNoise3D } from "simplex-noise";
 
@@ -62,12 +62,11 @@ export const WavyBackground = ({
   };
 
   const waveColors = colors ?? [
-    "#388E3C",
-    "##4CAF50",
-    "#66BB6A",
-    "#81C784",
-    "#A5D6A7", 
-
+    "#38bdf8",
+    "#818cf8",
+    "#c084fc",
+    "#e879f9",
+    "#22d3ee",
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
@@ -86,7 +85,7 @@ export const WavyBackground = ({
 
   let animationId: number;
   const render = () => {
-    ctx.fillStyle = backgroundFill || "#2E7D32";
+    ctx.fillStyle = backgroundFill || "black";
     ctx.globalAlpha = waveOpacity || 0.5;
     ctx.fillRect(0, 0, w, h);
     drawWave(5);
