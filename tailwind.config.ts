@@ -65,7 +65,7 @@ const config = {
           DEFAULT: "#EEF0E5",
         },
         morninggreen: {
-          DEFAULT: "88AB8E"
+          DEFAULT: "88AB8E",
         },
         lightgray: {
           DEFAULT: "#B6C4B6",
