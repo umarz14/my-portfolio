@@ -52,6 +52,31 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        pthalogreen: {
+          DEFAULT: "#163020",
+        },
+        kombugreen: {
+          DEFAULT: "#304D30",
+        },
+        ashgray: {
+          DEFAULT: "#B6C4B6",
+        },
+        alabaster: {
+          DEFAULT: "#EEF0E5",
+        },
+        morninggreen: {
+          DEFAULT: "88AB8E"
+        },
+        lightgray: {
+          DEFAULT: "#B6C4B6",
+        },
+        offwhite: {
+          DEFAULT: "#EEE7DA",
+        },
+        isabelline: {
+          DEFAULT: "#F2F1EB",
+        },
+
       },
       borderRadius: {
         lg: "var(--radius)",
