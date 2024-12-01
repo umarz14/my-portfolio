@@ -2,10 +2,10 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
+  IconMug,
+  IconStretching,
+  IconSofa,
+  IconServer,
 } from "@tabler/icons-react";
 
 const Projects = () => {
@@ -62,21 +62,21 @@ const MyBentoGrid = () => {
       description: "A coffee shop finder web app utilizing Google Maps API and Angular.",
       header: <Skeleton />,
       className: "md:col-span-2",
-      icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+      icon: <IconMug className="h-5 w-5 text-neutral-500" />,
     },
     {
       title: "WorkoutPals",
       description: "A mobile app that helps you find workout buddies in your area.",
       header: <Skeleton />,
       className: "md:col-span-1",
-      icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+      icon: <IconStretching className="h-5 w-5 text-neutral-500" />,
     },
     {
       title: "The Living Room",
       description: "A mobile app that helps you and your roommates manage household chores.",
       header: <Skeleton />,
       className: "md:col-span-1",
-      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+      icon: <IconSofa className="h-5 w-5 text-neutral-500" />,
     },
     {
       title: "ProxMox / SpotiPiPlayer",
@@ -84,7 +84,7 @@ const MyBentoGrid = () => {
         "Still deciding what project to display for this one",
       header: <Skeleton />,
       className: "md:col-span-2",
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+      icon: <IconServer className="h-4 w-4 text-neutral-500" />,
     },
   ];
   
