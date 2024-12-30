@@ -10,11 +10,11 @@ import {
 
 const Projects = () => {
     return (
-        <section id="projects" className="h-full flex flex-col justify-center items-center text-center bg-alabaster border-2 border-fuchsia-700">
+        <section id="projects" className="h-screen flex flex-col items-center justify-center bg-alabaster border-2 border-fuchsia-700 pt-10 pb-10">
             {/* <div>
                 <h2 className="text-4xl font-semibold text-green-900">Projects</h2>
             </div> */}
-            <div className="p-8">
+            <div className=" border-2 border-yellow-900">
                 <MyBentoGrid />
             </div>
             {/* <div className="grid gap-8 mt-8">

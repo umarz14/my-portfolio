@@ -3,7 +3,7 @@ import { WavyBackground } from "@/components/ui/wavy-background";
 
 const Hero = () => {
   return (
-    <section id="hero" className="w-full max-w-full h-screen overflow-hidden">
+    <section id="hero" className="">
       <WavyBackground
         className="mx-auto pb-40 mt-auto"
         backgroundFill="#163020"
